@@ -1,0 +1,22 @@
+{
+  "name": "all-about-the-stream",
+  "version": "0.1.0",
+  "description": "Simple example app for 'All about the stream' presentation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudetroit/all-about-the-stream.git"
+  },
+  "keywords": [
+    "reactive",
+    "presentation"
+  ],
+  "author": "Matthew LaForest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudetroit/all-about-the-stream/issues"
+  },
+  "homepage": "https://github.com/mudetroit/all-about-the-stream#readme"
+}
