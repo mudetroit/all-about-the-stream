@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/mudetroit/all-about-the-stream/issues"
   },
-  "homepage": "https://github.com/mudetroit/all-about-the-stream#readme"
+  "homepage": "https://github.com/mudetroit/all-about-the-stream#readme",
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.8.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-react": "^3.6.3"
+  }
 }
