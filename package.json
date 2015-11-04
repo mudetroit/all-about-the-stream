@@ -22,7 +22,10 @@
     "url": "https://github.com/mudetroit/all-about-the-stream/issues"
   },
   "homepage": "https://github.com/mudetroit/all-about-the-stream#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
   "devDependencies": {
     "babel": "^5.8.19",
     "babel-eslint": "^4.1.3",

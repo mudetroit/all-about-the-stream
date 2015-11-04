@@ -8,7 +8,6 @@ import yargs from 'yargs';
 
 const {argv: {serve}} = yargs;
 
-// This peforms the actual bundling and writes the new bundle to disk
 function bundle(bundler){
     return bundler
         .bundle()
@@ -18,13 +17,9 @@ function bundle(bundler){
         .pipe(gulp.dest('./'));
 }
 
-// The 'scripts' task is responsible for compiling the js lovated under the client directory
 gulp.task('scripts', () =>{
-    // Build the basic browserify bundler we use.
     let bundler = browserify({
-        // nut.js is the entry point for browserify
         entries: ['./src/app.jsx'],
-        // Define and configure the babel transformer, the only one we use
         transform: [
             ['babelify', { optional: ['es7.objectRestSpread', 'es7.classProperties', 'es7.decorators'] }],
         ],
